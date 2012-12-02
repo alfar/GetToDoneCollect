@@ -18,10 +18,6 @@ public class GetToDoneWidgetProvider extends AppWidgetProvider {
 	        RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget1);
 	        views.setOnClickPendingIntent(R.id.button1, pendingIntent);
 
-	        intent = new Intent(context, GetToDoneActivity.class);
-	        intent.putExtra("EXTRA_SPEECH_TO_TEXT", true);
-	        pendingIntent = PendingIntent.getActivity(context, 1, intent, 0);	        
-	        views.setOnClickPendingIntent(R.id.button2, pendingIntent);
 	        appWidgetManager.updateAppWidget(appWidgetId, views);
 	    }
 	}
