@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:key="api_key" android:summary="The API key for accessing GetToDone" android:title="GetToDone API key" android:dialogTitle="GetToDone API key" android:dialogMessage="Enter the API key"/>
+    
+
+</PreferenceScreen>

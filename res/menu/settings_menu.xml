@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemLogin" android:visible="true" android:enabled="true" android:title="Log in at gettodone.dk" android:icon="@drawable/ic_login" android:titleCondensed="Log in" android:menuCategory="system"></item>
+   
+</menu>
